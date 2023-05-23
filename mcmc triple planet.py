@@ -90,5 +90,5 @@ plt.ylabel('Radial velocity (m/s)')
 plt.show()
 
 
-fig = corner.corner(samples, labels=labels, quantiles=[0.95, 0.98, 0.99], show_titles=True, title_kwargs={"fontsize": 12})
+fig = corner.corner(samples, labels=labels,label_kwargs={"fontsize":25}, quantiles=[0.95, 0.98, 0.99], show_titles=True, title_kwargs={"fontsize": 20})
 plt.show()
